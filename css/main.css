@@ -12252,11 +12252,17 @@ header {
   .intro_further .row [class^=col-] {
     padding: 1rem 12px;
   }
+  .featured_proj .row [class^=col-] {
+    padding: 1rem 12px;
+  }
   .our_moto .row [class^=col-] {
     padding: 1rem 12px;
   }
+  .testimonial_inner .row [class^=col-] {
+    padding: 1rem 12px;
+  }
   .our_team-card picture img {
-    width: 80%;
+    width: 73%;
     margin: 0 auto;
   }
   .featured_img-sec {

@@ -657,6 +657,7 @@ header {
   display: block;
   width: 100%;
   height: 400px;
+  // height: fit-content;
   bottom: 0;
   left: 0;
   padding: 0 1rem;
@@ -1339,6 +1340,17 @@ header {
 
   }
 
+  //styling of .featured_proj section
+
+  .featured_proj {
+
+    .row [class^="col-"] {
+      padding: 1rem 12px;
+    }
+
+  }
+
+
   //styling of .our_moto section
 
   .our_moto {
@@ -1347,11 +1359,20 @@ header {
     }
   }
 
+
+  // styling of .testimonial_inner section
+
+  .testimonial_inner{
+    .row [class^="col-"] {
+      padding: 1rem 12px;
+    }
+  }
+
+
   //styling of .our_team section
 
   .our_team-card picture img{
-    // height: 480px;
-    width: 80%;
+    width: 73%;
     margin: 0 auto;
   }
 
@@ -1401,6 +1422,14 @@ header {
     position: initial;
     // height: fit-content;
   }
+
+  // .featured_proj {
+
+  //   .row [class^="col-"] {
+  //     padding: 1rem 12px!important;
+  //   }
+
+  // }
 
 }
 
