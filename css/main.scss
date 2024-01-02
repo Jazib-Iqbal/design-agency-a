@@ -2,6 +2,7 @@
 @import "./global_classes";
 @import "./atom";
 @import "./page_a";
+@import "./projects";
 // @import "./page_b";
 
 //fonts
@@ -19,7 +20,6 @@ $font_family-a: 'Roboto',
 sans-serif;
 $font_family-b: 'Butterfly Kids',
 sans-serif;
-
 
 
 
@@ -101,6 +101,8 @@ header {
 
 
 
+
+
 .nav_main {
 
   padding: 1rem 0;
@@ -119,6 +121,7 @@ header {
       }
     }
   }
+
 
 
 

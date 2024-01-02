@@ -288,6 +288,27 @@
     display: inline-block;
   }
 
+
+  .psysodo_border{
+    
+    &::after{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: .75rem;
+        right: 0;
+        top: 50%;
+        transform: translate( 0, -50%);
+
+
+    }
+}
+
+
+.horizontal_inverse{
+    flex-direction: row-reverse;
+}
+
 @media(max-width: 768px) {
     .sec_space {
         padding: 2rem 0;
